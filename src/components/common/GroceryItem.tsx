@@ -1,11 +1,12 @@
 import { useDeleteGrocery, useUpdateGrocery } from "@/api"
 import { Checkbox, Button, Input } from "@/components/ui"
+import { GroceryItem as GroceryItemType } from "@/types"
 import { CheckedState } from "@radix-ui/react-checkbox"
 import { useState } from "react"
 import { Oval } from 'react-loader-spinner'
 
 type GroceryItemProps = {
-  item: GroceryItem
+  item: GroceryItemType
 }
 
 export const GroceryItem = ({ item }: GroceryItemProps) => {

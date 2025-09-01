@@ -1,6 +1,7 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query"
 import { api } from "@/api/axios"
 import { QUERY_KEYS } from "../keys"
+import { GroceryItem } from "@/types"
 
 export const useGetGroceries = () => {
   const { data, isLoading, isError } = useQuery({

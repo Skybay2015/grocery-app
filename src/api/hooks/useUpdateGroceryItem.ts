@@ -3,6 +3,7 @@ import { useQueryClient, useMutation } from '@tanstack/react-query'
 import { api } from '@/api/axios'
 import { QUERY_KEYS } from '../keys'
 import { toast } from 'react-toastify'
+import { GroceryItem } from '@/types'
 
 export const useUpdateGrocery = () => {
   const queryClient = useQueryClient()
