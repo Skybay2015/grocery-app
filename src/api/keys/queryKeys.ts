@@ -1,0 +1,3 @@
+export enum QUERY_KEYS {
+    GET_GROCERIES = 'GET_GROCERIES'
+}

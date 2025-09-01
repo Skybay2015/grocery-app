@@ -1,0 +1,22 @@
+{
+  "groceries": [
+    {
+      "title": "Apples",
+      "amount": 1,
+      "bought": false,
+      "id": 1
+    },
+    {
+      "title": "Milk",
+      "amount": 5,
+      "bought": false,
+      "id": 2
+    },
+    {
+      "title": "Bread",
+      "amount": 10,
+      "bought": true,
+      "id": 3
+    }
+  ]
+}
